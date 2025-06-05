@@ -2,14 +2,6 @@ import streamlit as st
 from agno.agent import Agent
 from agno.models.google import Gemini
 
-# Must be the first Streamlit command
-st.set_page_config(
-    page_title="AI Symptom Checker with Risk Assessment",
-    page_icon="💉",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
-
 def medical_symptom_checker():
     if 'assessment_result' not in st.session_state:
         st.session_state.assessment_result = {}
