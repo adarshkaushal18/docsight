@@ -4,6 +4,7 @@ numpy
 pillow
 phidata
 agno
+ddgs
 duckduckgo-search
 google-generativeai
 google-genai
